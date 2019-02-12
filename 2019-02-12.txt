@@ -1,0 +1,1 @@
+Until I went to lunch today, I created the home page for a website. The page had a header, section, and the name of every page on my site. The header and section text were one color and the page names different colors.
