@@ -1,8 +1,12 @@
 .container{
     display: grid;
-
+    grid-template-areas: "header";
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 12px;
+    text-align: center;
 }
 header{
+    grid-area: header;
     font-size: 100px;
     color: green;
     background: black;
