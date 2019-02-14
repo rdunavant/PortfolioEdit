@@ -4,6 +4,7 @@
 header{
     font-size: 40px;
     color: green;
+    margin: 5%;
 }
 body{
     background: black;
@@ -72,4 +73,5 @@ body{
 section{
     font-size: 30px;
     color: green;
+    margin: 5%;
 }

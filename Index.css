@@ -5,17 +5,23 @@
     grid-gap: 12px;
     text-align: center;
 }
+body{
+    background: black;
+    text-align: center;
+}
 header{
     grid-area: header;
     font-size: 100px;
     color: green;
     background: black;
+    margin: 5%;
 }
 h2{
     grid-area: section;
     font-size: 30px;
     text-align: center;
     color: green;
+    margin: 5%;
 }
 body{
     background: black;

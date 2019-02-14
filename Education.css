@@ -10,11 +10,13 @@ header{
     grid-area: header;
     font-size: 40px;
     color: green;
+    margin: 5%;
 }
 section{
     grid-area: section;
     font-size: 30px;
     color: green;
+    margin: 5%;
 }
 s2{
     grid-area: section;
@@ -25,6 +27,7 @@ p {
     grid-area: p;
     font-size: 20px;
     color: green;
+    margin: 5%;
 }
 s3{
     grid-area: section;

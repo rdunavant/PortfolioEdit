@@ -1,16 +1,11 @@
 .container{
     display: grid;
-    grid-template-areas:
-            "header";
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-auto-rows: 100px;
-    grid-gap: 12px;
-    text-align: center;
 }
 header{
     grid-area: header;
     font-size: 40px;
     color: green;
+    margin: 5%;
 }
 body{
     background: black;
@@ -76,65 +71,16 @@ body{
     border: 10px solid lime;
     display: inline-block;
 }
-td
-{
-    text-align: center;
-    font-size: 200%;
-    height: 50px;
-    width: 50px;
-    color: green;
-}
 h1,h2
 {
     text-align: center;
 }
-table{
-    margin: auto;
+img{
+    height: 2cm;
+    width: 2cm;
 }
-.vertical
-{
-    border-left: 1px solid green;
-    border-right: 1px solid green;
-}
-.horizontal
-{
-    border-top: 1px solid green;
-    border-bottom: 1px solid green;
-}
-
-section{
-    grid-column: 1/9;
-    grid-row: 1;
-}
-section{
-    grid-column: 2/9;
-    grid-row: 2;
-}
-section{
-    grid-column: 3/9;
-    grid-row: 3;
-}
-section{
-    grid-column: 4/9;
-    grid-row: 4;
-}
-section{
-    grid-column: 5/9;
-    grid-row: 5;
-}
-section{
-    grid-column: 6/9;
-    grid-row: 6;
-}
-section{
-    grid-column: 7/9;
-    grid-row: 7;
-}
-section{
-    grid-column: 8/9;
-    grid-row: 8;
-}
-section{
-    grid-column: 9/9;
-    grid-row: 9;
+p{
+    font-size: 15px;
+    color: green;
+    margin: 5%;
 }
