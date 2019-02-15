@@ -1,10 +1,13 @@
 .container{
     display: grid;
-    grid-template-areas:
-            "header"
-            "section section section";
-    grid-template-columns: 1fr 1fr 2fr;
-    grid-gap: 20px;
+    grid-template-columns: 33% 33% 34%;
+}
+.border{
+    border: green solid thick;
+    margin: 10px;
+    padding: 10px;
+    color: green;
+    font-size: 40px;
 }
 header{
     grid-area: header;
@@ -12,34 +15,10 @@ header{
     color: green;
     margin: 5%;
 }
-section{
-    grid-area: section;
-    font-size: 30px;
-    color: green;
-    margin: 5%;
-}
-s2{
-    grid-area: section;
-    font-size: 30px;
-    color: green;
-}
-p {
-    grid-area: p;
-    font-size: 20px;
-    color: green;
-    margin: 5%;
-}
-s3{
-    grid-area: section;
-    font-size: 30px;
-    color: green;
-}
 body{
-    grid-area: body;
     background: black;
     text-align: center;
 }
-
 #nav1{
     grid-area: index;
     background: lime;
@@ -101,4 +80,10 @@ body{
 }
 img{
     height: 3cm;
+    margin: 25%;
+}
+p{
+    color: green;
+    font-size: 25px;
+    margin: 10%;
 }

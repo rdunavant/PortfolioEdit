@@ -1,5 +1,13 @@
 .container{
     display: grid;
+    grid-template-columns: 50% 50%;
+}
+.border{
+    border: green solid thick;
+    margin: 25px;
+    padding: 10px;
+    color: green;
+    font-size: 30px;
 }
 header{
     font-size: 40px;
@@ -33,7 +41,6 @@ body{
     grid-column: 3;
     border: 10px solid lime;
     display: inline-block;
-
 }
 #nav4{
     grid-area: home;
@@ -70,8 +77,6 @@ body{
     border: 10px solid lime;
     display: inline-block;
 }
-section{
-    font-size: 30px;
-    color: green;
-    margin: 5%;
+img{
+    margin: 35px;
 }

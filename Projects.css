@@ -1,13 +1,15 @@
 .container{
     display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 15%;
 }
 header{
     font-size: 40px;
     color: green;
-    margin: 5%;
+    margin: 25%;
 }
 section{
-    font-size: 20px;
+    font-size: 30px;
     color: green;
     margin: 5%;
 }
@@ -74,4 +76,14 @@ body{
     grid-column: 8;
     border: 10px solid lime;
     display: inline-block;
+}
+p{
+    font-size: 30px;
+    color: green;
+    margin: 5px;
+}
+.border{
+    border: green solid thick;
+    margin: 10px;
+    padding: 10px;
 }
