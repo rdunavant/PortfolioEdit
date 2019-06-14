@@ -3,79 +3,79 @@
     grid-template-columns: 33% 33% 34%;
 }
 .border{
-    border: green solid thick;
+    border: darkgreen solid thick;
     margin: 10px;
     padding: 10px;
-    color: green;
+    color: darkgreen;
     font-size: 40px;
 }
 header{
     grid-area: header;
     font-size: 40px;
-    color: green;
+    color: darkgreen;
     margin: 5%;
 }
 body{
-    background: black;
+    background: white;
     text-align: center;
 }
 #nav1{
     grid-area: index;
-    background: lime;
+    background: white;
     text-align: left;
     grid-row: 2;
     grid-column: 1;
-    border: 10px solid lime;
+    border: 10px solid white;
     display: inline-block;
 }
 #nav2{
     grid-area: AboutMe;
-    background: lime;
+    background: white;
     grid-column: 2;
-    border: 10px solid lime;
+    border: 10px solid white;
     display: inline-block;
 }
 #nav3{
     grid-area: skills;
-    background: lime;
+    background: white;
     grid-column: 3;
-    border: 10px solid lime;
+    border: 10px solid white;
     display: inline-block;
 
 }
 #nav4{
     grid-area: projects;
-    background: lime;
+    background: white;
     grid-column: 4;
-    border: 10px solid lime;
+    border: 10px solid white;
     display: inline-block;
 }
 #nav5{
     grid-area: education;
-    background: lime;
+    background: white;
     grid-column: 5;
-    border: 10px solid lime;
+    border: 10px solid white;
     display: inline-block;
 }
 #nav6{
     grid-area: resume;
-    background: lime;
+    background: white;
     grid-column: 6;
-    border: 10px solid lime;
+    border: 10px solid white;
     display: inline-block;
 }
 #nav7{
     grid-area: contact;
-    background: lime;
+    background: white;
     grid-column: 7;
-    border: 10px solid lime;
+    border: 10px solid white;
     display: inline-block;
 }
 #nav8{
     grid-area: reflections;
-    background: lime;
+    background: white;
     grid-column: 8;
-    border: 10px solid lime;
+    border: 10px solid white;
     display: inline-block;
 }
 img{

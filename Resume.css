@@ -3,76 +3,76 @@
 }
 header{
     font-size: 40px;
-    color: green;
+    color: darkgreen;
     margin: 10%;
 }
 .border{
-    border: green solid thick;
+    border: darkgreen solid thick;
     margin: 10px;
     padding: 10px;
 }
 body{
-    background: black;
+    background: white;
     text-align: center;
 }
 
 #nav1{
     grid-area: home;
-    background: lime;
+    background: white;
     text-align: left;
     grid-row: 2;
     grid-column: 1;
-    border: 10px solid lime;
+    border: 10px solid white;
     display: inline-block;
 }
 #nav2{
     grid-area: home;
-    background: lime;
+    background: white;
     grid-column: 2;
-    border: 10px solid lime;
+    border: 10px solid white;
     display: inline-block;
 }
 #nav3{
     grid-area: home;
-    background: lime;
+    background: white;
     grid-column: 3;
-    border: 10px solid lime;
+    border: 10px solid white;
     display: inline-block;
 
 }
 #nav4{
     grid-area: home;
-    background: lime;
+    background: white;
     grid-column: 4;
-    border: 10px solid lime;
+    border: 10px solid white;
     display: inline-block;
 }
 #nav5{
     grid-area: home;
-    background: lime;
+    background: white;
     grid-column: 5;
-    border: 10px solid lime;
+    border: 10px solid white;
     display: inline-block;
 }
 #nav6{
     grid-area: home;
-    background: lime;
+    background: white;
     grid-column: 6;
-    border: 10px solid lime;
+    border: 10px solid white;
     display: inline-block;
 }
 #nav7{
     grid-area: home;
-    background: lime;
+    background: white;
     grid-column: 7;
-    border: 10px solid lime;
+    border: 10px solid white;
     display: inline-block;
 }
 #nav8{
     grid-area: home;
-    background: lime;
+    background: white;
     grid-column: 8;
-    border: 10px solid lime;
+    border: 10px solid white;
     display: inline-block;
 }
 script{
